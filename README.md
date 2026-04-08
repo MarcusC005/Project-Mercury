@@ -13,7 +13,7 @@ A fabrication-valid, industry-representative power delivery network test board t
 
 ---
 
-![Board](docs/images/3D_Front.png)
+![Board](docs/images/3D Front RT.png)
 
 
 
