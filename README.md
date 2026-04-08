@@ -1,8 +1,6 @@
-# Project-Mercury
-A fabrication-valid, industry-representative power delivery network test board targeting 500 A peak current at 1.0 V — designed to operate within the electrical regime of RTX 4090-class discrete GPU power delivery systems.
 <div align="center">
 
-#  Mercury
+# ⚡ Mercury
 ### GPU-Class PDN Test Platform
 
 *A fabrication-valid, industry-representative power delivery network test board targeting 500 A peak current at 1.0 V — designed to operate within the electrical regime of RTX 4090-class discrete GPU power delivery systems.*
@@ -13,9 +11,9 @@ A fabrication-valid, industry-representative power delivery network test board t
 
 ---
 
-![Board](docs/images/3D Front RT.png)
+![Board](docs/images/3D%20Real%20Shot.PNG)
 
-
+</div>
 
 ---
 
@@ -81,15 +79,19 @@ N-channel MOSFET banks controlled by STM32G030K6T6, providing repeatable current
 
 | Top Side | Bottom Side |
 |:---:|:---:|
-| ![Top](docs/images/3D_Front.png) | ![Bottom](docs/images/3D_Back.png) |
+| ![Top](docs/images/3D%20Front%20RT.PNG) | ![Bottom](docs/images/3D%20Back%20RT.PNG) |
 
-| All Layers Composite | L1 — 12V + VCORE |
+| Side View | All Layers Composite |
 |:---:|:---:|
-| ![All Layers](docs/images/All_Layers.png) | ![Layer 1](docs/images/Layer_1.png) |
+| ![Side](docs/images/3D%20Side%20View.PNG) | ![All Layers](docs/images/All%20Layers.PNG) |
 
-| MLCC Carpet (Load Region) | DrMOS Phase Row |
+| L1 — 12V + VCORE Distribution | MLCC Carpet (Load Region) |
 |:---:|:---:|
-| ![MLCC](docs/images/Inner_Chip_Area.png) | ![DrMOS](docs/images/DrMOS_Phases.png) |
+| ![Layer 1](docs/images/Layer%201.PNG) | ![MLCC](docs/images/Inner%20Chip%20Area.PNG) |
+
+| DrMOS Phase Row | 12V and VCORE Planes |
+|:---:|:---:|
+| ![DrMOS](docs/images/PCB%20View%20DrMOS%20Phases.PNG) | ![Power Planes](docs/images/PCB%20View%2012V%20and%20VCORE.PNG) |
 
 </div>
 
@@ -118,7 +120,7 @@ Full engineering documentation is provided in the `/docs` directory.
 
 | Document | Description |
 |---|---|
-| `Mercury_Master_Technical_Report_v2.docx` | Complete 14-section technical report covering architecture, PDN theory, modelling, transient analysis, capacitor network design, stackup, via strategy, load modelling, layout implementation, limitations, and revision strategy |
+| `Mercury_Master_Technical_Report.docx` | Complete 14-section technical report covering architecture, PDN theory, modelling, transient analysis, capacitor network design, stackup, via strategy, load modelling, layout implementation, limitations, and revision strategy |
 | `Mercury_Executive_Summary.docx` | 2-page summary of project scope, key specifications, design decisions, and central findings — for fast review |
 | `Mercury_Engineering_Reflections.docx` | Honest personal reflection on what worked, what didn't, what was learned, and what a second revision would change |
 
@@ -148,39 +150,22 @@ Mercury/
 │   ├── Mercury_Executive_Summary.docx
 │   ├── Mercury_Engineering_Reflections.docx
 │   └── images/
-│       ├── 3D_Front.png
-│       ├── 3D_Back.png
-│       ├── 3D_Real_Shot.png
-│       ├── 3D_Side_View.png
-│       ├── All_Layers.png
-│       ├── Layer_1.png
-│       ├── Layer_8.png
-│       ├── Inner_Chip_Area.png
-│       ├── DrMOS_Phases.png
-│       └── PCB_12V_VCORE.png
+│       ├── 3D Front RT.PNG
+│       ├── 3D Front Nm.PNG
+│       ├── 3D Back RT.PNG
+│       ├── 3D Back Nm.PNG
+│       ├── 3D Real Shot.PNG
+│       ├── 3D Side View.PNG
+│       ├── All Layers.PNG
+│       ├── Layer 1.PNG
+│       ├── Layer 8.PNG
+│       ├── Inner Chip Area.PNG
+│       ├── PCB View DrMOS Phases.PNG
+│       └── PCB View 12V and VCORE.PNG
 ├── gerbers/
-│   ├── Mercury_(GPU)-L1.gbr
-│   ├── Mercury_(GPU)-GND1.gbr
-│   ├── Mercury_(GPU)-VCORE.gbr
-│   ├── Mercury_(GPU)-GND2.gbr
-│   ├── Mercury_(GPU)-Logic+3V3.gbr
-│   ├── Mercury_(GPU)-GND3.gbr
-│   ├── Mercury_(GPU)-F_Silkscreen.gbr
-│   ├── Mercury_(GPU)-B_Silkscreen.gbr
-│   ├── Mercury_(GPU)-F_Mask.gbr
-│   ├── Mercury_(GPU)-B_Mask.gbr
-│   ├── Mercury_(GPU)-F_Paste.gbr
-│   ├── Mercury_(GPU)-B_Paste.gbr
-│   ├── Mercury_(GPU)-Edge_Cuts.gbr
-│   ├── Mercury_(GPU)-PTH.drl
-│   ├── Mercury_(GPU)-NPTH.drl
-│   └── Mercury_(GPU)-job.gbrjob
-├── centroid/
-│   ├── Mercury_(GPU)-all.pos
-│   ├── Mercury_(GPU)-top.pos
-│   └── Mercury_(GPU)-bottom.pos
-└── kicad/
-    └── (KiCad project files)
+│   └── (Gerber and drill files)
+└── centroid/
+    └── (Component placement files)
 ```
 
 ---
@@ -202,9 +187,10 @@ These are documented in full in the Master Technical Report (Section 12) and the
 
 **Marcus Cropley**
 Electronics and Computer Systems Engineering — RMIT University, Melbourne
-https://www.linkedin.com/in/marcus-cropley-938582370/ · [GitHub](https://github.com/Marcusc05)
+[LinkedIn](https://www.linkedin.com/in/marcus-cropley-938582370/) · [GitHub](https://github.com/MarcusC005)
 
 ---
 
 <div align="center">
 <sub>Mercury — GPU-Class PDN Test Platform · Revision 1.0</sub>
+</div>
