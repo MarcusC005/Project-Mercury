@@ -118,7 +118,7 @@ Full engineering documentation is provided in the `/docs` directory.
 
 | Document | Description |
 |---|---|
-| `Mercury_Master_Technical_Report.docx` | Complete 14-section technical report covering architecture, PDN theory, modelling, transient analysis, capacitor network design, stackup, via strategy, load modelling, layout implementation, limitations, and revision strategy |
+| `Mercury_Master_Technical_Report_v2.docx` | Complete 14-section technical report covering architecture, PDN theory, modelling, transient analysis, capacitor network design, stackup, via strategy, load modelling, layout implementation, limitations, and revision strategy |
 | `Mercury_Executive_Summary.docx` | 2-page summary of project scope, key specifications, design decisions, and central findings — for fast review |
 | `Mercury_Engineering_Reflections.docx` | Honest personal reflection on what worked, what didn't, what was learned, and what a second revision would change |
 
